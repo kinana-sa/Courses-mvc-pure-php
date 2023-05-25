@@ -11,7 +11,7 @@
 
 <a href = "/task2/create">Create User</a>
 <table>
-    <thead>
+    <thead> Welcome:
         <tr>
             <th>ID</th>
             <th>Name</th>
