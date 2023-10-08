@@ -19,52 +19,49 @@ session_start();
 $x = new User();
 $x->getAll("users");
 print_r($x);
-// switch($URL)
-// {
-//     case "index":
-//         $userController->index();
-//         break;
-//     case "create":
-//         $userController->create();
-//         break;
-//     case "edit":
-//         $userController->edit();
-//         break;
-//     case "update":
-//         $userController->update();
-//         break;
-//     case "delete":
-//         $userController->delete();
-//         break;
-//     case "login":
-//         $userController->login();
-//         break;
-//     case "logout":
-//         $userController->logout();
-//         break;
-//     case "register":
-//         $userController->register();
-//         break;
-//     case "course_index":
-//             $courseController->index();
-//             break;
-//     case "course_create":
-//             $courseController->create();
-//             break;
-//     case "course_edit":
-//             $courseController->edit();
-//             break;
-//     case "course_update":
-//             $courseController->update();
-//             break;
-//     case "course_delete":
-//             $courseController->delete();
-//             break;
+switch($URL)
+{
+    case "index":
+        $userController->index();
+        break;
+    case "create":
+        $userController->create();
+        break;
+    case "edit":
+        $userController->edit();
+        break;
+    case "update":
+        $userController->update();
+        break;
+    case "delete":
+        $userController->delete();
+        break;
+    case "login":
+        $userController->login();
+        break;
+    case "logout":
+        $userController->logout();
+        break;
+    case "register":
+        $userController->register();
+        break;
+    case "course_index":
+            $courseController->index();
+            break;
+    case "course_create":
+            $courseController->create();
+            break;
+    case "course_edit":
+            $courseController->edit();
+            break;
+    case "course_update":
+            $courseController->update();
+            break;
+    case "course_delete":
+            $courseController->delete();
+            break;
 
-//     default :
-//         $userController->index();
-//         break;
-// }
-
-    
-  
+    default :
+        $userController->index();
+        break;
+}  
